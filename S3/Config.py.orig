@@ -96,8 +96,6 @@ class Config(object):
     log_target_prefix = ""
     reduced_redundancy = False
     follow_symlinks = False
-    parallel = False
-    workers = 10
     socket_timeout = 300
     invalidate_on_cf = False
     # joseprio: new flags for default index invalidation
